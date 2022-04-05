@@ -31,4 +31,10 @@ Mouse scroll to zoom
 
 The real theme ended up being us delaying the inevitable realization that we were not really going to finish on time.
 
-[Play the Game Here](https://edgeboyo.github.io/ldjam-50/)
+### Want to check it out in Unity?
+
+Just import the *Delay the Inevitable* folder
+
+### Want to play it?
+
+[**Click Here!**](https://edgeboyo.github.io/ldjam-50/)
