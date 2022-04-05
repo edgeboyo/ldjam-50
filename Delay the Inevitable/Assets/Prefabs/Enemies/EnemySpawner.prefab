@@ -1,0 +1,155 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8435163679190647922
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8435163679190647927}
+  - component: {fileID: 8435163679190647921}
+  - component: {fileID: 240033074129156250}
+  m_Layer: 0
+  m_Name: EnemySpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8435163679190647927
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8435163679190647922}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5315.57, y: -3498.2808, z: -54.044304}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &8435163679190647921
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8435163679190647922}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 127.25635, y: 7.697754}
+      - {x: -159.14587, y: 0.92815757}
+      - {x: -158.81201, y: -58.65625}
+      - {x: -121.06641, y: -58.229248}
+      - {x: -96.01465, y: -62.114502}
+      - {x: -82.43555, y: -54.400635}
+      - {x: -65.18115, y: -46.2771}
+      - {x: -53.02246, y: -45.684082}
+      - {x: -38.40576, y: -18.54248}
+      - {x: -1.4408126, y: -18.220882}
+      - {x: 34.057022, y: -18.12054}
+      - {x: 56.05957, y: -29.402588}
+      - {x: 85.10254, y: -30.868408}
+      - {x: 118.725586, y: -66.54077}
+      - {x: 118.43555, y: -84.61133}
+      - {x: 140.59033, y: -84.16943}
+      - {x: 143.72217, y: -88.676025}
+      - {x: 142.64258, y: -113.67456}
+      - {x: 142.42383, y: -123.59888}
+      - {x: 179.28271, y: -124.126465}
+      - {x: 182.93994, y: -113.58594}
+      - {x: 201.00537, y: -107.135254}
+      - {x: 213.55664, y: -111.796875}
+      - {x: 216.24805, y: -128.4563}
+      - {x: 235.24023, y: -128.31616}
+      - {x: 235.08008, y: -116.96362}
+      - {x: 253.39111, y: -101.34888}
+      - {x: 284.25977, y: -97.28076}
+      - {x: 298.01855, y: -97.059814}
+      - {x: 298.61475, y: -83.74609}
+      - {x: 325.7246, y: -84.03345}
+      - {x: 325.71387, y: -96.0188}
+      - {x: 342.8042, y: -102.46875}
+      - {x: 393.86865, y: -104.374756}
+      - {x: 395.7173, y: -95.4314}
+      - {x: 425.95947, y: -95.02417}
+      - {x: 435.81738, y: -96.07544}
+      - {x: 439.00342, y: -110.561035}
+      - {x: 449.36035, y: -110.68921}
+      - {x: 456.1494, y: -110.31836}
+      - {x: 458.67773, y: -102.52222}
+      - {x: 463.73438, y: -96.201416}
+      - {x: 465.771, y: -88.74902}
+      - {x: 465.98145, y: -88.538086}
+      - {x: 467.82178, y: -86.52734}
+      - {x: 482.792, y: -74.74707}
+      - {x: 482.2754, y: -42.39502}
+      - {x: 492.49268, y: 10.876221}
+      - {x: 506.03418, y: 11.25293}
+      - {x: 517.8325, y: -4.9709473}
+      - {x: 565.22363, y: -20.048828}
+      - {x: 627.2969, y: -21.00708}
+      - {x: 638.042, y: -35.75586}
+      - {x: 636.3179, y: -74.253174}
+      - {x: 603.20703, y: -76.55615}
+      - {x: 569.5259, y: -76.106445}
+      - {x: 559.2612, y: -50.74414}
+      - {x: 562.3037, y: -19.69336}
+      - {x: 517.58984, y: -5.334717}
+      - {x: 516.8784, y: -82.20825}
+      - {x: 522.9663, y: -88.77417}
+      - {x: 527.9282, y: -98.23535}
+      - {x: 533.23047, y: -101.58057}
+      - {x: 533.4546, y: -109.77319}
+      - {x: 553.4951, y: -110.163086}
+      - {x: 555.5869, y: -94.99585}
+      - {x: 574.09766, y: -95.197754}
+      - {x: 581.4531, y: -99.54541}
+      - {x: 633.3076, y: -102.37256}
+      - {x: 635.895, y: -94.45703}
+      - {x: 665.1362, y: -92.68799}
+      - {x: 668.2925, y: -67.96362}
+      - {x: 695.4824, y: -67.94238}
+      - {x: 702.36426, y: 27.332275}
+      - {x: 518.04346, y: 25.790771}
+      - {x: 492.17285, y: 25.410889}
+      - {x: 404.16162, y: -33.907715}
+      - {x: 366.91016, y: -69.19873}
+      - {x: 351.5879, y: -55.76416}
+      - {x: 350.83594, y: -21.205078}
+      - {x: 163.4989, y: -16.177555}
+--- !u!114 &240033074129156250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8435163679190647922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c0cd27bdd7c2d0beb32d667cf512b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  zombie: {fileID: 8053383746023229879, guid: 18fbd0d242ca4f74b94f14d33bef6036, type: 3}
+  Spawned: []
+  profile: {fileID: 0}

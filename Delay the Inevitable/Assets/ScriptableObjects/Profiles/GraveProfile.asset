@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2560245f59374529aebda5ac321dd974, type: 3}
+  m_Name: GraveProfile
+  m_EditorClassIdentifier: 
+  <MovementData>k__BackingField:
+    <MovementSpeed>k__BackingField: 0
+    <JumpForce>k__BackingField: 0
+    <JumpGravityMultiplier>k__BackingField: 0
+    <FallGravityMultiplier>k__BackingField: 0
+    <FlightModifier>k__BackingField: 0
+  <LifeData>k__BackingField:
+    <HealthPoints>k__BackingField: 1
+    <BloodBox>k__BackingField: {fileID: 8011983682162425845, guid: 1c559e67c1a27e3459e05afcbe63eb17, type: 3}

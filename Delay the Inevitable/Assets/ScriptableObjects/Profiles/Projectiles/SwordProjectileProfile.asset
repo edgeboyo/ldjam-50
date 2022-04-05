@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2f3326cc33f48f9b1890d7c5dcf6782, type: 3}
+  m_Name: SwordProjectileProfile
+  m_EditorClassIdentifier: 
+  <WeaponData>k__BackingField:
+    <Damage>k__BackingField: 1
+    <Cooldown>k__BackingField: 0.125
+    <ProjectileTemplate>k__BackingField: {fileID: 5073280504945262396, guid: fa2c668ddd2eb264dab6cea6f2905e3f, type: 3}
+    <ProjectileSpeed>k__BackingField: 230
+    <ProjectileRotation>k__BackingField: 90
+    <ProjectileLifetime>k__BackingField: 1.8
+    <MaxProjectiles>k__BackingField: 3
+    <SuplementalScripts>k__BackingField: []

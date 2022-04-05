@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2170561108338245263
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 403937381540942297}
+  - component: {fileID: 8055577114813010116}
+  - component: {fileID: 8674877193364892948}
+  m_Layer: 0
+  m_Name: LevelManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &403937381540942297
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2170561108338245263}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.177395, y: 0.8599391, z: -4.2677593}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8055577114813010116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2170561108338245263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 912d7ee8f45d41efeaee567e2db1e343, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelgen: {fileID: 8674877193364892948}
+  levelSize: 64
+  level: 0
+--- !u!114 &8674877193364892948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2170561108338245263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ea805baf115710d18f52cc41223e457, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  upPlats:
+  - {fileID: 8653282161351095708, guid: cc4b301a15597b932b28d04972c55b5b, type: 3}
+  - {fileID: 6616618893261171014, guid: 064d91e82abbd16339ec75b860a468d5, type: 3}
+  - {fileID: 8396423625539106070, guid: bb140a053f8fafffca8dc20c5f1c4dae, type: 3}
+  downPlats:
+  - {fileID: 2910810973084028926, guid: b0d5eec1ca82fae788ee711ef913419b, type: 3}
+  - {fileID: 6952752722912509596, guid: cd1d0bd7165611b89a8c4f390b4a4677, type: 3}
+  - {fileID: 2060332511569291424, guid: c8a830334acab1a09b4020b8d5a05216, type: 3}
+  - {fileID: 6082392711589258953, guid: bbeb9587d1d12222eb301a6600bbff16, type: 3}
+  flatPlats:
+  - {fileID: 9075155945038490252, guid: e12e03e674d9acad2a6aa5a1065aaaad, type: 3}
+  - {fileID: 6963054659228099160, guid: f4ec0dbaec21fda0ca258554142d367f, type: 3}
+  player: {fileID: 707365128479678501, guid: 2ec658d477cf19c438a75d3b59743e70, type: 3}

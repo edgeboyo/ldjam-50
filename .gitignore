@@ -1,0 +1,9 @@
+# Dotfiles
+.*
+!.gitignore
+
+# Pre-Compiles
+*.o
+
+# Cacne
+*.cache

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2f3326cc33f48f9b1890d7c5dcf6782, type: 3}
+  m_Name: MeleeProjectile
+  m_EditorClassIdentifier: 
+  <WeaponData>k__BackingField:
+    <Damage>k__BackingField: 1
+    <Cooldown>k__BackingField: 0.2
+    <ProjectileTemplate>k__BackingField: {fileID: 5073280504945262396, guid: 950ff38a1fdc7384c973fc0713405d31, type: 3}
+    <ProjectileSpeed>k__BackingField: 100
+    <ProjectileRotation>k__BackingField: -480
+    <ProjectileLifetime>k__BackingField: 0.05
+    <MaxProjectiles>k__BackingField: 1
+    <AudioClips>k__BackingField:
+    - {fileID: 8300000, guid: be6cab0da2cbf054c98678a2435cce7a, type: 3}
+    - {fileID: 8300000, guid: 4853790e537d14c4cbf020fed52ecd4e, type: 3}
+    - {fileID: 8300000, guid: fe009a006966fe843adc4f12763ba298, type: 3}
+    - {fileID: 8300000, guid: 0eaf810199fb1a745a4f0fd4df84c575, type: 3}
+    - {fileID: 8300000, guid: c74182e72fb13f042912b8b6b73bae1e, type: 3}
+    - {fileID: 8300000, guid: 93faf7049e1dc5a44ac39c0853146f0b, type: 3}
+    <SuplementalScripts>k__BackingField: []
